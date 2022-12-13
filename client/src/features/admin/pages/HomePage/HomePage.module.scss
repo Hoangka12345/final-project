@@ -1,0 +1,32 @@
+.wrapper {
+  width: 100%;
+  background-color: #f8f6f6ba;
+  height: calc(100vh - 8rem);
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 18%;
+}
+
+.icon {
+}
+
+.home-icon {
+  animation: rotating 5s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

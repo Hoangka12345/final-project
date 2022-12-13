@@ -1,0 +1,24 @@
+.text-field {
+  margin-bottom: 2rem;
+
+  label {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    background-color: #fff;
+  }
+
+  input {
+    font-size: 1.6rem;
+  }
+}
+
+.service-checkbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-item {
+  width: 33%;
+}

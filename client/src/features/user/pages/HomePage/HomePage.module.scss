@@ -1,0 +1,72 @@
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.search {
+  width: 50%;
+  height: 5rem;
+  margin: 2rem auto;
+  border: 1px solid #b9b9b9;
+  display: flex;
+  border-radius: 1rem;
+
+  input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    border-radius: 1rem;
+  }
+}
+
+.search-icon {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #999;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+  &:hover {
+    background: rgb(245, 245, 245);
+    cursor: pointer;
+  }
+}
+
+.favourite-tour {
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #999;
+}
+
+.famous-place {
+  margin-top: 4rem;
+}
+
+.favourite-tour__wrapper {
+  width: 100%;
+  margin: 2rem auto 0;
+}
+
+.tourism-type {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.tourism-type__wrapper {
+  width: 95%;
+  margin: 2rem auto;
+}

@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.intro-item {
+  color: #083e7e;
+
+  &:not(:nth-child(1)) {
+    cursor: pointer;
+  }
+}
+
+.intro-icon {
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+}
+
+.intro-item__title {
+  color: #646363;
+}

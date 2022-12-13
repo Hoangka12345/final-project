@@ -1,0 +1,39 @@
+.service {
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+.service-checkbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-item {
+  width: 33%;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    width: 30%;
+  }
+}
+
+.text-field {
+  input {
+    font-size: 1.4rem;
+  }
+}
+
+.action-btn {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}

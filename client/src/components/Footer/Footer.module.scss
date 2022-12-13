@@ -1,0 +1,51 @@
+.wrapper {
+  background-color: #35322d;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.list {
+  li {
+    list-style: none;
+    color: #f3f3da;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  li:first-child {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    margin: 4rem 0 2rem;
+    color: #fff;
+  }
+}
+
+.contact {
+  li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      margin-right: 1rem;
+    }
+  }
+
+  li:hover {
+    color: #fff;
+  }
+}
+
+.author {
+  color: #fff;
+  text-align: center;
+  margin: 4rem 0;
+  font-style: italic;
+}

@@ -1,0 +1,52 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: url("https://wallpaperaccess.com/full/201088.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 35%;
+  height: 70%;
+  background-color: #1a2226d1;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.header {
+  margin-top: 1rem;
+  p {
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+
+.text-field {
+  input {
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 0.5rem 1rem;
+  }
+
+  label {
+    font-size: 1.6rem;
+  }
+}
+
+.login-btn {
+  text-align: right;
+  margin-top: 4rem;
+}
+
+.link {
+  font-size: 1.4rem;
+  color: rgb(37, 139, 190);
+  text-decoration: underline;
+  cursor: pointer;
+  font-style: italic;
+  margin-top: 3rem;
+}

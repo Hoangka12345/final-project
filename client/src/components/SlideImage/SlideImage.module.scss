@@ -1,0 +1,87 @@
+.wrapper {
+    width: 100%;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: 40rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+    img {
+      width: 100%;
+      height: 40rem;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+  }
+  
+  .slide {
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    margin: 1rem auto;
+    height: 8rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .mySwiper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+  }
+  
+  .slide-thumbnail {
+    width: 100%;
+    height: 7rem;
+    border-radius: 0.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    opacity: 0.5;
+  
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0.5rem;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
+  
+  .active {
+    opacity: 1;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    margin: 0 0.5rem;
+  }
+  
+  .navigation-btn {
+    width: 4rem;
+    height: 3.5rem;
+    background-color: #1087cb;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .navigation-icon {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  

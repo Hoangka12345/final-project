@@ -1,0 +1,31 @@
+
+//  admin quản lý, xác thực các tour theo công ty
+//  quản lý doanh thu của doanh nghiệp và tính lợi nhuận
+//  quản lý feedback của người dùng, và quản lý tất cả tài khoản
+//  feedback của admin được đánh dấu là admin
+
+// Luồng chức năng chính
+
+// 1. user
+//     - login, register
+//     - show tour
+//     - cmt no realtime
+//     - rate tour
+//     - booking tour
+
+// 2. company
+//     - login, register
+//     - add tour
+//     - show tour(sort by active tour)
+//     - show booking and auth booking
+//     - cmt no realtime
+
+
+// 3. admin
+//     - login, add admin
+//     - show booking
+//     - auth company
+//     - show tour
+//     - auth tour
+
+//   (admin and company comment được hiển thị vai trò lên trên - chức năng thêm)

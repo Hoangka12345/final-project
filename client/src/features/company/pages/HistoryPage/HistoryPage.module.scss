@@ -1,0 +1,18 @@
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 85%;
+  margin: 4rem auto 2rem;
+}
+
+.author {
+  text-align: center;
+  margin: 4rem 0;
+  font-style: italic;
+
+  span {
+    color: red;
+  }
+}

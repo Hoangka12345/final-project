@@ -1,0 +1,153 @@
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #e60e31;
+  margin-bottom: 2rem;
+}
+
+.rating {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  border-bottom: 1px solid #999;
+
+  p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #b22222;
+  }
+}
+
+.rating-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  .rating-label {
+    width: 20rem;
+  }
+
+  .rating-star {
+    display: flex;
+    align-items: center;
+
+    .rating-status {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.tour-info {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  border-bottom: 1px solid #999;
+
+  p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #b22222;
+  }
+}
+
+.tour-info__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.content-icon {
+  font-size: 2rem;
+  color: #555;
+}
+
+.date-start {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 0.5rem;
+}
+
+.content-item__value {
+  font-weight: normal;
+  margin-left: 0.5rem;
+}
+
+.service {
+  margin-top: 2rem;
+
+  p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #b22222;
+  }
+}
+
+.service-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service-item {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 1rem;
+  margin: 0.8rem 0;
+}
+
+.service-icon {
+  color: #428bca;
+  font-size: 2rem;
+}
+
+.tour-description {
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+.tour-action {
+  p {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #b22222;
+    font-weight: 500;
+  }
+
+  ul {
+    margin: 1rem 2rem;
+    padding: 0;
+  }
+
+  li {
+    color: #0e6805;
+    margin-top: 1rem;
+  }
+}
+
+.contact {
+  margin-top: 2rem;
+
+  span {
+    color: red;
+  }
+}

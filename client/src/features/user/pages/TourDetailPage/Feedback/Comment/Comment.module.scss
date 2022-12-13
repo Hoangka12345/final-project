@@ -1,0 +1,28 @@
+.wrapper {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.comment {
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.time {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+
+.content {
+  font-weight: 400;
+}

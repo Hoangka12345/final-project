@@ -1,0 +1,110 @@
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 21rem;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+
+    h2 {
+        color: rgb(205, 0, 0);
+        font-size: 2.5rem;
+    }
+}
+
+.header-info {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .item {
+        width: 25rem;
+        height: 10rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 1rem;
+        padding: 1rem;
+
+        p {
+            text-align: center;
+
+            &:nth-child(1) {
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+
+            &:nth-child(2) {
+                margin-top: 1rem;
+                font-weight: 500;
+                color:rgb(0, 89, 205)
+            }
+        }
+    }
+}
+
+.content {
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    gap: 1rem;
+
+    .slide {
+        width: 45%;
+        height: 50rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 1rem;
+
+        .slide-display {
+            width: 98%;
+            margin: 0.5rem auto;
+        }
+    }
+
+    .info {
+        padding: 1rem;
+        flex: 1;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 1rem;
+
+        .info-item {
+            display: flex;
+            // align-items: center;
+            margin: 1rem;
+
+            p {
+                &:nth-child(1) {
+                    width: 30%;
+                    font-weight: 500;
+                }
+
+                &:nth-child(2) {
+                    flex: 1;
+                    text-align: justify;
+                }
+            }
+
+            .list {
+                flex: 1;
+
+                li {
+                    margin-left: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+.btn_edit {
+    text-align: center;
+    margin: 3rem 0 1rem;
+}
+

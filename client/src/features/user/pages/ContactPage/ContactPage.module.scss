@@ -1,0 +1,136 @@
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 2rem auto;
+  //   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  h3 {
+    margin: 2rem 0 1rem;
+    color: #d32d03;
+  }
+
+  p {
+    margin-top: 1rem;
+    text-align: justify;
+  }
+}
+
+.Contact-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  width: 100%;
+  border-bottom: 1px solid #d32d03;
+  padding: 1rem 0;
+  text-align: justify;
+  color: #d32d03;
+}
+
+.form {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.label {
+  margin-top: 3rem;
+
+  span {
+    color: red;
+  }
+}
+
+.input {
+  input {
+    font-size: 1.6rem;
+  }
+}
+
+.contact-btn {
+  width: 100%;
+}
+
+.contact {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin: 4rem 0;
+  background-color: #3399fe;
+}
+
+.contact-content {
+  width: 80%;
+  height: 15rem;
+
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.avt {
+  position: absolute;
+  top: -5rem;
+  left: 10%;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main-content {
+  width: 70%;
+  p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 2rem 0 0;
+  }
+}
+
+.contact-number {
+  font-size: 2.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.contact-zalo {
+  width: 70%;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-social-network {
+  flex: 1;
+
+  a {
+    font-size: 1.2rem;
+  }
+}
+
+.social-network {
+  width: 15rem;
+  height: 4rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  padding: 0 1.6rem;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #3b589c;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0 1.4rem;
+}
+
+.instagram {
+  background-color: #c65f34;
+  font-size: 1.8rem;
+  font-weight: 500;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/uploadphoto" method="post" enctype="multipart/form-data">
+        <span>hinh anh</span> <input type="file" accept="image/*" name="avt" id="">
+        <button>save</button>
+    </form>
+
+
+    <script>
+        function doSomething(callback) {
+
+            return callback('stuff', 'goes', 'here');
+        }
+
+        function foo(a, b, c) {
+            // I'm the callback
+            return a + " " + b + " " + c;
+        }
+
+        const test = doSomething(foo)
+        console.log(test);
+    </script>
+</body>
+
+</html>

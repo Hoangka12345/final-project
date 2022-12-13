@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.note {
+  p {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(181, 0, 0);
+  }
+
+  ul {
+    margin-left: 2rem;
+    padding: 0;
+  }
+
+  li {
+    margin-top: 1rem;
+
+    span {
+      &:nth-child(1) {
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

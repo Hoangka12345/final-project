@@ -1,0 +1,89 @@
+.wrapper {
+  width: 100%;
+  position: sticky;
+  top: 10rem;
+}
+
+.container {
+  padding: 2.5rem 1.5rem;
+}
+
+.old-price {
+  color: #ffc600;
+  text-decoration: line-through;
+}
+
+.new-price {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffc600;
+  margin-bottom: 1rem;
+}
+
+.time-start {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.title {
+  font-size: 2rem;
+  flex: 1.5;
+  color: #fff;
+}
+
+.adapter {
+  flex: 2;
+}
+
+.adapter-input {
+  border-radius: 0.5rem;
+  background-color: #fff;
+
+  input {
+    font-size: 1.6rem;
+  }
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.select {
+  flex: 2;
+}
+
+.contact {
+  margin-top: 2rem;
+}
+
+.contact-title {
+  width: 100%;
+  background-color: #0066d9;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.contact-content {
+  padding: 1rem 2rem;
+}
+
+.contact-item {
+  font-weight: 500;
+  margin-top: 1rem;
+
+  span {
+    &:nth-child(2) {
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.day-time {
+  width: 100%;
+  position: relative;
+}
+
+.day-time-icon {
+  // height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.icon {
+  width: 2.5rem;
+  height: 2.6rem;
+  color: #fff;
+  background-color: rgb(181, 181, 181);
+  cursor: pointer;
+}
+
+.text-field {
+  input {
+    font-size: 1.6rem;
+  }
+
+  label {
+    font-size: 1.4rem;
+    padding-right: 0.5rem;
+    background-color: #fff;
+  }
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    width: 10%;
+  }
+}
+
+.actions-content {
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+}
+
+.text-field {
+  flex: 1;
+
+  input {
+    font-size: 1.4rem;
+  }
+}
